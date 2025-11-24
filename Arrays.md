@@ -1,0 +1,75 @@
+# Arrays Example Programs
+
+## 1. Linear Search (Find Index of Element)
+```java
+class LinearSearch {
+    public static int search(int[] arr, int x) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == x) {
+                return i;
+            }
+        }
+        return -1;  // not found
+    }
+}
+```
+
+## 2. Largest Element in Array
+```java
+class LargestElement {
+    public static int largest(int[] arr) {
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
+}
+```
+
+## 3. Reverse an Array (Two-pointer method)
+```java
+class ReverseArray {
+    public static void reverse(int[] arr) {
+        for (int i = 0; i < arr.length / 2; i++) {
+            int temp = arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = temp;
+        }
+    }
+}
+```
+
+## 4. Check If Array Is Sorted (Ascending)
+```java
+class CheckSorted {
+    public static boolean isSorted(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+
+## 5. Reverse Array — Using While Loop (Alternative Logic)
+```java
+class ReverseArray2 {
+    public static void reverse(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+    }
+}
+```
