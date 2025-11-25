@@ -134,7 +134,7 @@ public class ara1 {
     }
 }
 ```
-<span style="color:#ff3399;">2. Count Positive, Negative, Zero</span>
+## <span style="color:#ff3399;">2. Count Positive, Negative, Zero</span>
 ```java
 import java.util.Scanner;
 
@@ -163,7 +163,7 @@ public class CountNumbers {
     }
 }
 ```
-<span style="color:#33cc33;">3. Minimum Value in Array</span>
+## <span style="color:#33cc33;">3. Minimum Value in Array</span>
 ```java
 import java.util.Scanner;
 
@@ -190,7 +190,7 @@ public class MinValue {
     }
 }
 ```
-<span style="color:#cc00ff;">4. Average of Array</span>
+## <span style="color:#cc00ff;">4. Average of Array</span>
 ```java
 import java.util.Scanner;
 
@@ -215,7 +215,7 @@ public class Average {
     }
 }
 ```
-<span style="color:#ff0000;">5. Print Array + Sum</span>
+## <span style="color:#ff0000;">5. Print Array + Sum</span>
 ```java
 import java.util.Scanner;
 
@@ -243,7 +243,7 @@ public class PrintAndSum {
     }
 }
 ```
-<span style="color:#0099ff;">6. Index of Max & Min Element</span>
+## <span style="color:#0099ff;">6. Index of Max & Min Element</span>
 ```java
 import java.util.Scanner;
 
@@ -277,7 +277,7 @@ public class IndexOfMinMax {
     }
 }
 ```
-<span style="color:#ffaa00;">7. Print All Numbers Greater Than K</span>
+## <span style="color:#ffaa00;">7. Print All Numbers Greater Than K</span>
 ```java
 import java.util.Scanner;
 
